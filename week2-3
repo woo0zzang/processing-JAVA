@@ -1,0 +1,7 @@
+//RGB color
+
+size(200,200);
+background(255);
+noStroke();
+fill(255,200,200,180); /* RGB Color (Pink), Alpha Transparency(70% opacity)*/
+ellipse(50,50,100,100);
