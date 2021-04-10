@@ -1,0 +1,14 @@
+//bouncing ball
+
+int x = 0; int speed = 2;
+void setup() { size(480, 270); }
+void draw() {  
+background(255);   
+x = x + speed; // Add the current speed to the x location.
+if ((x > width) || (x < 0)) {    
+// If the object reaches either edge, multiply speed by -1 to turn it around.    
+speed = speed * -1;  
+}  
+stroke(0);  fill(175);  
+ellipse(x,100,32,32); // Display circle at x location
+}
