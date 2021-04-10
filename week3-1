@@ -1,0 +1,3 @@
+int circleX = 50;
+int circleY = 50;
+ellipse(circleX,circleY,50,50);
