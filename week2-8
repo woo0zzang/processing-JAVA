@@ -1,0 +1,3 @@
+void draw(){
+  rect(mouseX,mouseY,50,50);
+}
